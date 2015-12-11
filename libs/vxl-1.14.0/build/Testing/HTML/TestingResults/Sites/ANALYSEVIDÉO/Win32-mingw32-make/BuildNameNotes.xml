@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make" Name="ANALYSEVIDÉO">
+<BuildNameNotes>
+<Note>
+<DateTime>unset</DateTime>
+<Text>
+The full test_build_info did not run.
+Here is some basic information:
+vxl_SOURCE_DIR = C:/workspace/libs/vxl-1.14.0
+vxl_BINARY_DIR = C:/workspace/libs/vxl-1.14.0/build
+CMAKE_C_COMPILER = C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/bin/gcc.exe
+CMAKE_C_FLAGS =  
+CMAKE_CXX_COMPILER = C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/bin/g++.exe
+CMAKE_CXX_FLAGS =  
+CMAKE_SYSTEM = Windows-6.1
+CMAKE_MAKE_PROGRAM = C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/bin/mingw32-make.exe
+</Text>
+</Note>
+</BuildNameNotes>
+</Site>
+

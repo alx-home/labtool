@@ -1,0 +1,1 @@
+ ../../../../../lib/libbxml.a ../../../../../lib/libexpatpp.a ../../../../../lib/libexpat.a ../../../../../lib/libvbl_io.a ../../../../../lib/libvsl.a ../../../../../lib/libvul.a -lws2_32 ../../../../../lib/libvbl.a ../../../../../lib/libvcl.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

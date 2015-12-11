@@ -1,0 +1,6 @@
+C:/workspace/libs/coherent point drift Bing-jian/build/CMakeFiles/gmmreg_transform.dir
+C:/workspace/libs/coherent point drift Bing-jian/build/CMakeFiles/test_gauss_transform.dir
+C:/workspace/libs/coherent point drift Bing-jian/build/CMakeFiles/gmmreg_api.dir
+C:/workspace/libs/coherent point drift Bing-jian/build/CMakeFiles/gmmreg_demo.dir
+C:/workspace/libs/coherent point drift Bing-jian/build/CMakeFiles/gmmreg_aux.dir
+C:/workspace/libs/coherent point drift Bing-jian/build/CMakeFiles/extract_correspondence.dir

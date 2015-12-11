@@ -1,0 +1,9 @@
+prefix=C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64
+libdir=C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/lib/lapack
+
+Name: blas
+Description: Basic Linear Algebra Subprograms F77 reference implementations
+Version: 
+URL: http://www.netlib.org/blas/
+Libs: -LC:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/lib/lapack -lblas
+Libs.private: -lm

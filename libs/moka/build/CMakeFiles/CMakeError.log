@@ -1,0 +1,57 @@
+Determining if the include file sys/mman.h exists failed with the following output:
+Change Dir: C:/Users/alex/Documents/chu/libs/moka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.2-P/mingw64/bin/mingw32-make.exe" "cmTC_39c60/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.2-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_39c60.dir\build.make CMakeFiles/cmTC_39c60.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/alex/Documents/chu/libs/moka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39c60.dir/CheckIncludeFile.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\gcc.exe     -o CMakeFiles\cmTC_39c60.dir\CheckIncludeFile.c.obj   -c C:\Users\alex\Documents\chu\libs\moka\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\alex\Documents\chu\libs\moka\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:22: fatal error: sys/mman.h: No such file or directory
+ #include <sys/mman.h>
+                      ^
+compilation terminated.
+CMakeFiles\cmTC_39c60.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_39c60.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_39c60.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/alex/Documents/chu/libs/moka/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTC_39c60/fast] Error 2
+makefile:125: recipe for target 'cmTC_39c60/fast' failed
+
+
+Determining if the include file boost/memory.hpp exists failed with the following output:
+Change Dir: C:/Users/alex/Documents/chu/libs/moka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.2-P/mingw64/bin/mingw32-make.exe" "cmTC_d4d01/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.2-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_d4d01.dir\build.make CMakeFiles/cmTC_d4d01.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/alex/Documents/chu/libs/moka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4d01.dir/CheckIncludeFile.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\gcc.exe     -o CMakeFiles\cmTC_d4d01.dir\CheckIncludeFile.c.obj   -c C:\Users\alex\Documents\chu\libs\moka\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\alex\Documents\chu\libs\moka\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:28: fatal error: boost/memory.hpp: No such file or directory
+ #include <boost/memory.hpp>
+                            ^
+compilation terminated.
+CMakeFiles\cmTC_d4d01.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_d4d01.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_d4d01.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/alex/Documents/chu/libs/moka/build/CMakeFiles/CMakeTmp'
+makefile:125: recipe for target 'cmTC_d4d01/fast' failed
+mingw32-make.exe: *** [cmTC_d4d01/fast] Error 2
+
+
+Determining if the include file boost/tr1/memory.hpp exists failed with the following output:
+Change Dir: C:/Users/alex/Documents/chu/libs/moka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.2-P/mingw64/bin/mingw32-make.exe" "cmTC_59782/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.2-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_59782.dir\build.make CMakeFiles/cmTC_59782.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/alex/Documents/chu/libs/moka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59782.dir/CheckIncludeFile.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\gcc.exe     -o CMakeFiles\cmTC_59782.dir\CheckIncludeFile.c.obj   -c C:\Users\alex\Documents\chu\libs\moka\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\alex\Documents\chu\libs\moka\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:32: fatal error: boost/tr1/memory.hpp: No such file or directory
+ #include <boost/tr1/memory.hpp>
+                                ^
+compilation terminated.
+CMakeFiles\cmTC_59782.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_59782.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_59782.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/alex/Documents/chu/libs/moka/build/CMakeFiles/CMakeTmp'
+makefile:125: recipe for target 'cmTC_59782/fast' failed
+mingw32-make.exe: *** [cmTC_59782/fast] Error 2
+
+

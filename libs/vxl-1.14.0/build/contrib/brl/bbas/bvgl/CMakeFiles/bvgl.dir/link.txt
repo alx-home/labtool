@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libbvgl.a  CMakeFiles/bvgl.dir/bvgl_articulated_poly.obj CMakeFiles/bvgl.dir/bvgl_change_obj.obj CMakeFiles/bvgl.dir/bvgl_changes.obj CMakeFiles/bvgl.dir/Templates/vbl_smart_ptr+bvgl_articulated_poly-.obj CMakeFiles/bvgl.dir/Templates/vbl_smart_ptr+bvgl_changes-.obj CMakeFiles/bvgl.dir/Templates/vbl_smart_ptr+bvgl_change_obj-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libbvgl.a

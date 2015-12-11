@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libexpatpp.a  CMakeFiles/expatpp.dir/expatpp.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libexpatpp.a

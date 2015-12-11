@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libvtol_algo.a  CMakeFiles/vtol_algo.dir/vtol_extract_topology.obj CMakeFiles/vtol_algo.dir/Templates/vbl_smart_ptr+vtol_extract_topology_edgel_chain-.obj CMakeFiles/vtol_algo.dir/Templates/vbl_smart_ptr+vtol_extract_topology_region_type-.obj CMakeFiles/vtol_algo.dir/Templates/vtol_extract_topology+vxl_uint_16-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libvtol_algo.a

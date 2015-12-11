@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\vsol_spatial_object_example.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe cr CMakeFiles\vsol_spatial_object_example.dir/objects.a @CMakeFiles\vsol_spatial_object_example.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\G__~1.EXE    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\vsol_spatial_object_example.dir/objects.a -Wl,--no-whole-archive  -o vsol_spatial_object_example.exe -Wl,--out-implib,libvsol_spatial_object_example.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\vsol_spatial_object_example.dir\linklibs.rsp

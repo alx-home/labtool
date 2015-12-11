@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libminizip.a  CMakeFiles/minizip.dir/ioapi.obj CMakeFiles/minizip.dir/zip.obj CMakeFiles/minizip.dir/unzip.obj CMakeFiles/minizip.dir/mztools.obj CMakeFiles/minizip.dir/iowin32.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libminizip.a

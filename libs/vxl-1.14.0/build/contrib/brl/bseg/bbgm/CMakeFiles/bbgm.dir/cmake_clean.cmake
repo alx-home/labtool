@@ -1,0 +1,38 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/bbgm.dir/bbgm_image_of.obj"
+  "CMakeFiles/bbgm.dir/bbgm_viewer.obj"
+  "CMakeFiles/bbgm.dir/bbgm_loader.obj"
+  "CMakeFiles/bbgm.dir/bbgm_feature_image.obj"
+  "CMakeFiles/bbgm.dir/bbgm_features.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_feature_image+bbgm_mask_feature-.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_feature_image+bbgm_mask_pair_feature-.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_feature_image+bbgm_pair_group_feature-.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_image_of+bsta_mixture+bsta_num_obs+bsta_gauss_if3---.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_image_of+bsta_num_obs+bsta_gaussian_indep+float.3---.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_image_of+bsta_num_obs+bsta_gaussian_sphere+float.1---.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_image_of+bsta_num_obs+bsta_mixture+bsta_num_obs+bsta_gauss_f1----.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_image_of+bsta_num_obs+bsta_mixture+bsta_num_obs+bsta_gauss_ff3----.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_image_of+bsta_num_obs+bsta_mixture+bsta_num_obs+bsta_gauss_if3----.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_image_of+bsta_num_obs+bsta_mixture+bsta_num_obs+bsta_gauss_sf3----.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_image_of+bsta_num_obs+bsta_mixture_fixed+bsta_num_obs+bsta_gaussian_indep+float.4--.3---.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_image_of+bsta_num_obs+bsta_mixture_fixed+bsta_num_obs+bsta_gauss_f1-.3---.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_image_of+bsta_num_obs+bsta_mixture_fixed+bsta_num_obs+bsta_gauss_if3-.3---.obj"
+  "CMakeFiles/bbgm.dir/Templates/bbgm_image_of+bsta_parzen_sphere+float.3--.obj"
+  "CMakeFiles/bbgm.dir/Templates/vbl_io_smart_ptr+bbgm_feature_image_base-.obj"
+  "CMakeFiles/bbgm.dir/Templates/vbl_io_smart_ptr+bbgm_image_base-.obj"
+  "CMakeFiles/bbgm.dir/Templates/vbl_smart_ptr+bbgm_feature_image_base-.obj"
+  "CMakeFiles/bbgm.dir/Templates/vbl_smart_ptr+bbgm_image_base-.obj"
+  "CMakeFiles/bbgm.dir/Templates/vbl_smart_ptr+bbgm_viewer-.obj"
+  "CMakeFiles/bbgm.dir/Templates/vbl_smart_ptr+bbgm_view_maker_base-.obj"
+  "CMakeFiles/bbgm.dir/Templates/vsl_binary_loader+bbgm_feature_image_base-.obj"
+  "CMakeFiles/bbgm.dir/Templates/vsl_binary_loader+bbgm_image_base-.obj"
+  "CMakeFiles/bbgm.dir/Templates/vsl_vector_io+vbl_array_2d+float--.obj"
+  "CMakeFiles/bbgm.dir/Templates/vsl_vector_io+vbl_array_2d+int--.obj"
+  "../../../../lib/libbbgm.pdb"
+  "../../../../lib/libbbgm.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/bbgm.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

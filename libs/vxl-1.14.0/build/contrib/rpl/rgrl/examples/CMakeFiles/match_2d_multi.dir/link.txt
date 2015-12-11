@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\match_2d_multi.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe cr CMakeFiles\match_2d_multi.dir/objects.a @CMakeFiles\match_2d_multi.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\G__~1.EXE    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\match_2d_multi.dir/objects.a -Wl,--no-whole-archive  -o match_2d_multi.exe -Wl,--out-implib,libmatch_2d_multi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\match_2d_multi.dir\linklibs.rsp

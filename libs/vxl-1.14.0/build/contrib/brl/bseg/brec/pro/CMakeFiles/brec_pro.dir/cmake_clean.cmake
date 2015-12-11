@@ -1,0 +1,30 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/brec_pro.dir/brec_register.obj"
+  "CMakeFiles/brec_pro.dir/Templates/brdb_value_t+brec_part_hierarchy_detector_sptr-.obj"
+  "CMakeFiles/brec_pro.dir/Templates/brdb_value_t+brec_part_hierarchy_learner_sptr-.obj"
+  "CMakeFiles/brec_pro.dir/Templates/brdb_value_t+brec_part_hierarchy_sptr-.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_bayesian_update_process.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_change_area_process.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_construct_op_models_processes.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_create_mog_image_process.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_density_to_prob_map_process.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_detector_processes.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_glitch_overlay_process.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_glitch_process.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_hierarchy_processes.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_learner_processes.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_learner_update_processes.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_prob_map_area_process.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_prob_map_roc_compute_process.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_prob_map_supress_process.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_prob_map_threshold_process.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_recognize_structure_process.obj"
+  "CMakeFiles/brec_pro.dir/processes/brec_update_changes_process.obj"
+  "../../../../../lib/libbrec_pro.pdb"
+  "../../../../../lib/libbrec_pro.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/brec_pro.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

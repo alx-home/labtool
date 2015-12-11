@@ -1,0 +1,111 @@
+/*
+ * MatlabMex.cpp
+ *
+ *  Created on: 9 oct. 2015
+ *      Author: Alexandre GARCIN
+ */
+
+#include "MatlabMex.h"
+
+namespace generic {
+template<typename ... Outputs, typename ... Inputs>
+Wrapper<Output<Outputs...>, Input<Inputs...>>::Wrapper() {
+
+}
+
+template<typename ... Outputs, typename ... Inputs>
+Wrapper<Output<Outputs...>, Input<Inputs...>>::~Wrapper() {
+
+}
+
+template<typename ... Outputs, typename ... Inputs>
+void Wrapper<Output<Outputs...>, Input<Inputs...>>::wrap(std::function<void(Outputs&..., Inputs& ...)> func, int nlhs,
+		mxArray *plhs[], int nrhs, const mxArray *prhs[]) {
+	OutputWrapper_<0, Output<Outputs...>, Output<>>::wrap(func, nlhs, plhs, nrhs, prhs);
+}
+
+template<typename ... Outputs, typename ... Inputs>
+template<unsigned short index, typename T, typename ...LeftTypes, typename ... SettedTypes>
+void Wrapper<Output<Outputs...>, Input<Inputs...>>::OutputWrapper_<index, Output<T, LeftTypes...>, Output<SettedTypes...>>::wrap(
+		std::function<void(Outputs&..., Inputs& ...)>& func, int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[],
+		SettedTypes& ... outputs) {
+	T t;
+
+	OutputWrapper_<index + 1, Output<LeftTypes...>, Output<SettedTypes..., T>>::wrap(func, nlhs, plhs, nrhs, prhs, outputs..., t);
+
+	Streamer<Output<Outputs...>, Input<Inputs...>, T>::setOutput(index, t, nlhs, plhs, nrhs, prhs);
+}
+
+template<typename ... Outputs, typename ... Inputs>
+template<unsigned short index, typename ... SettedTypes>
+void Wrapper<Output<Outputs...>, Input<Inputs...>>::OutputWrapper_<index, Output<>, Output<SettedTypes...>>::wrap(
+		std::function<void(Outputs&..., Inputs& ...)>& func, int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[],
+		SettedTypes&... outputs) {
+
+	InputWrapper_<0, Input<Inputs...>, Input<>>::wrap(func, nlhs, plhs, nrhs, prhs, outputs...);
+}
+
+template<typename ... Outputs, typename ... Inputs>
+template<unsigned short index, typename T, typename ... LeftTypes, typename ... SettedTypes>
+void Wrapper<Output<Outputs...>, Input<Inputs...>>::InputWrapper_<index, Input<T, LeftTypes...>, Input<SettedTypes...>>::wrap(
+		std::function<void(Outputs&..., Inputs& ...)>& func, int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[],
+		Outputs&... outputs, SettedTypes& ... inputs) {
+	T value = Streamer<Output<Outputs...>, Input<Inputs...>, T>::getInput(index, nlhs, plhs, nrhs, prhs);
+
+	InputWrapper_<index + 1, Input<LeftTypes...>, Input<SettedTypes..., T>>::wrap(func, nlhs, plhs, nrhs, prhs, outputs..., inputs...,
+			value);
+}
+
+template<typename ... Outputs, typename ... Inputs>
+template<unsigned short index, typename ... SettedTypes>
+void Wrapper<Output<Outputs...>, Input<Inputs...>>::InputWrapper_<index, Input<>, Input<SettedTypes...>>::wrap(
+		std::function<void(Outputs&..., Inputs& ...)>& func, int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[],
+		Outputs&... outputs, Inputs&...inputs) {
+	func(outputs..., inputs...);
+}
+
+} // namespace generic
+
+template<typename ... Outputs, typename ... Inputs>
+void MatlabMex<Output<Outputs...>, Input<Inputs...>>::mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]) {
+	try {
+		if (nrhs != sizeof...(Inputs)) {
+			std::cerr << "Le nombre d'arguments passés à la fonction \"" << name << "\" est incorrect\n";
+			std::cerr << "\texpected " << sizeof...(Inputs) << ", received " << nrhs << std::endl;
+
+			throw std::exception();
+		}
+
+		if (nlhs != 0 && nlhs != sizeof...(Outputs)) {
+			std::cerr << "Le nombre d'arguments en sortie de la fonction \"" <<name<< "\" est incorrect\n";
+			std::cerr << "\texpected " << sizeof...(Outputs) << ", received " << nlhs << std::endl;
+
+			throw std::exception();
+		}
+
+		generic::Wrapper<Output<Outputs...>, Input<Inputs...>>::wrap(
+		[&](Outputs&... outputs, Inputs&... inputs) {
+			run(outputs..., inputs...);
+		},
+		nlhs, plhs, nrhs, prhs);
+
+		std::cout.flush();
+		std::cerr.flush();
+
+	} catch (...) {
+		usage();
+	}
+}
+
+template<typename ... Outputs, typename ... Inputs>
+MatlabMex<Output<Outputs...>, Input<Inputs...>>::~MatlabMex() {
+}
+
+template<typename ... Outputs, typename ... Inputs>
+MatlabMex<Output<Outputs...>, Input<Inputs...>>::MatlabMex() {
+}
+
+template<typename ... Outputs, typename ... Inputs>
+std::string MatlabMex<Output<Outputs...>, Input<Inputs...>>::getName() {
+	return name;
+}

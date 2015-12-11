@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libimesh.a  CMakeFiles/imesh.dir/imesh_vertex.obj CMakeFiles/imesh.dir/imesh_face.obj CMakeFiles/imesh.dir/imesh_half_edge.obj CMakeFiles/imesh.dir/imesh_mesh.obj CMakeFiles/imesh.dir/imesh_fileio.obj CMakeFiles/imesh.dir/imesh_operations.obj CMakeFiles/imesh.dir/imesh_detection.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libimesh.a

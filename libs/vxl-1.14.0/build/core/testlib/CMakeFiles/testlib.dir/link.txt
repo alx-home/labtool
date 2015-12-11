@@ -1,0 +1,2 @@
+C:\mingw-w64\x86_64-4.9.2-posix-seh-rt_v3-rev1\mingw64\bin\ar.exe cq ..\..\lib\libtestlib.a  CMakeFiles/testlib.dir/testlib_test.obj CMakeFiles/testlib.dir/testlib_main.obj CMakeFiles/testlib.dir/testlib_root_dir.obj
+C:\mingw-w64\x86_64-4.9.2-posix-seh-rt_v3-rev1\mingw64\bin\ranlib.exe ..\..\lib\libtestlib.a

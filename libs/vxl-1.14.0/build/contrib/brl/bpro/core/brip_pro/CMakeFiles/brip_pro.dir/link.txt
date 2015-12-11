@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\..\lib\libbrip_pro.a  CMakeFiles/brip_pro.dir/brip_register.obj CMakeFiles/brip_pro.dir/processes/brip_extrema_process.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\..\lib\libbrip_pro.a

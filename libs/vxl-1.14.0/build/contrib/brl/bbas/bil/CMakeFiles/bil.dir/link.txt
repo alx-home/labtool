@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libbil.a  CMakeFiles/bil.dir/Templates/bil_bounded_image_view+double-.obj CMakeFiles/bil.dir/Templates/bil_bounded_image_view+unsigned_char-.obj CMakeFiles/bil.dir/Templates/bil_bounded_image_view+unsigned_short-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libbil.a

@@ -1,0 +1,26 @@
+<settings>
+	<gapFrames size=50/>// Le nombre de frames minimum à partir duquel les données manquantes doivent être complétées 
+	<probaMin value=0.98/>// probabilité minimal à partir de laquelle les correspondances effectuées par le logiciel sont considérées comme fiables
+	<accMax value=1.5/>// Acceleration maximal qu'un marker est supposé atteindre (utilisé afin de détecter les échanges de coordonnées inter marqueurs)
+</settings>
+<groups>// Groupes de marqueurs supposés statiques les uns par rapport aux autres (utilisés pour construir les sphère de prédictions)
+	/* exemple : 
+	<group margin=0.015>
+		<marker label="LMET2"/>
+		<marker label="LMET4" margin=0.5/>
+	</group>
+	*/
+</groups>
+<boxes>
+	<labelisationBoxes>// Les points se trouvant dans ces boites sont renommée par le contenu du champs "label" lors de la labellisation automatique
+	/* exemple :
+		<box x1=-0.5 y1=-1.0 z1=-0.1 x2=1.5 y2=1.0 z2=-2.0 label="point"/>
+	*/
+	</labelisationBoxes>
+	<supressionBoxes>// Les points se trouvant dans ces boites sont supprimés lors de la labellisation automatique
+					 // (Ceci revient à créer une boite de labellisation "labelisationBoxes" dont le champs label continent la valeur: "outlier")
+	/* exemple :
+		<box x1=1 y1=1 z1=1 x2=1 y2=1 z2=1/>
+	*/
+	</supressionBoxes>
+</boxes>

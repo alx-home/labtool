@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libbdgl.a  CMakeFiles/bdgl.dir/bdgl_curve_algs.obj CMakeFiles/bdgl.dir/bdgl_region_algs.obj CMakeFiles/bdgl.dir/bdgl_curve_region.obj CMakeFiles/bdgl.dir/bdgl_peano_curve.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libbdgl.a

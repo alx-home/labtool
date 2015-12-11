@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\lib\libipts.a  CMakeFiles/ipts.dir/ipts_local_entropy.obj CMakeFiles/ipts.dir/ipts_corner_pyramid.obj CMakeFiles/ipts.dir/ipts_entropy_pyramid.obj CMakeFiles/ipts.dir/ipts_orientation_pyramid.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\lib\libipts.a

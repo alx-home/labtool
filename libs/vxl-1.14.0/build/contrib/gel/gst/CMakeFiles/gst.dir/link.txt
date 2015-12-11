@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\lib\libgst.a  CMakeFiles/gst.dir/gst_edge_2d.obj CMakeFiles/gst.dir/gst_face_2d.obj CMakeFiles/gst.dir/gst_polygon_2d.obj CMakeFiles/gst.dir/gst_polygon_2d_operators.obj CMakeFiles/gst.dir/gst_vertex_2d.obj CMakeFiles/gst.dir/Templates/vbl_smart_ptr+gst_edge_2d-.obj CMakeFiles/gst.dir/Templates/vbl_smart_ptr+gst_polygon_2d-.obj CMakeFiles/gst.dir/Templates/vbl_smart_ptr+gst_vertex_2d-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\lib\libgst.a

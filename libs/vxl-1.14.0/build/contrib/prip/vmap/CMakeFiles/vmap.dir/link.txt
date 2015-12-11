@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\lib\libvmap.a  CMakeFiles/vmap.dir/vbl_controlled_partition.obj CMakeFiles/vmap.dir/vmap_grid_structure.obj CMakeFiles/vmap.dir/vmap_2_map.obj CMakeFiles/vmap.dir/vmap_2_tmap_elts.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\lib\libvmap.a

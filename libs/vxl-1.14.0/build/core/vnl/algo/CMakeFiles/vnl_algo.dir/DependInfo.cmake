@@ -1,0 +1,103 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_adjugate+double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_adjugate+double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_adjugate+int-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_adjugate+int-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_convolve+double.double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_convolve+double.double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_convolve+int.double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_convolve+int.double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_convolve+int.int-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_convolve+int.int-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_determinant+double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_determinant+double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_determinant+float-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_determinant+float-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_determinant+int-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_determinant+int-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_determinant+vcl_complex+double--.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_determinant+vcl_complex+double--.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_determinant+vcl_complex+float--.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_determinant+vcl_complex+float--.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_fft_1d+double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_fft_1d+double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_fft_1d+float-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_fft_1d+float-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_fft_2d+double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_fft_2d+double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_fft_2d+float-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_fft_2d+float-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_fft_base+1.double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_fft_base+1.double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_fft_base+1.float-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_fft_base+1.float-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_fft_base+2.double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_fft_base+2.double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_fft_base+2.float-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_fft_base+2.float-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_fft_prime_factors+double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_fft_prime_factors+double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_fft_prime_factors+float-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_fft_prime_factors+float-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_matrix_inverse+double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_matrix_inverse+double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_orthogonal_complement+double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_orthogonal_complement+double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_orthogonal_complement+vcl_complex+double--.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_orthogonal_complement+vcl_complex+double--.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_orthogonal_complement+vcl_complex+float--.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_orthogonal_complement+vcl_complex+float--.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_qr+double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_qr+double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_qr+float-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_qr+float-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_qr+vcl_complex+double--.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_qr+vcl_complex+double--.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_qr+vcl_complex+float--.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_qr+vcl_complex+float--.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_scatter_3x3+double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_scatter_3x3+double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_scatter_3x3+float-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_scatter_3x3+float-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_svd+double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_svd+double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_svd+float-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_svd+float-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_svd+vcl_complex+double--.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_svd+vcl_complex+double--.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_svd+vcl_complex+float--.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_svd+vcl_complex+float--.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_svd_economy+double-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_svd_economy+double-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_svd_economy+float-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_svd_economy+float-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_svd_economy+vcl_complex+double--.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_svd_economy+vcl_complex+double--.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_svd_economy+vcl_complex+float--.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_svd_economy+vcl_complex+float--.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_svd_fixed+double.3.3-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_svd_fixed+double.3.3-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/Templates/vnl_svd_fixed+double.3.4-.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/Templates/vnl_svd_fixed+double.3.4-.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_adaptsimpson_integral.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_adaptsimpson_integral.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_amoeba.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_amoeba.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_bracket_minimum.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_bracket_minimum.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_brent.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_brent.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_brent_minimizer.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_brent_minimizer.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_chi_squared.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_chi_squared.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_cholesky.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_cholesky.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_complex_eigensystem.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_complex_eigensystem.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_conjugate_gradient.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_conjugate_gradient.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_cpoly_roots.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_cpoly_roots.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_determinant.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_determinant.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_discrete_diff.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_discrete_diff.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_fft.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_fft.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_gaussian_kernel_1d.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_gaussian_kernel_1d.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_generalized_eigensystem.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_generalized_eigensystem.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_generalized_schur.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_generalized_schur.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_lbfgs.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_lbfgs.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_lbfgsb.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_lbfgsb.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_ldl_cholesky.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_ldl_cholesky.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_levenberg_marquardt.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_levenberg_marquardt.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_lsqr.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_lsqr.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_powell.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_powell.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_real_eigensystem.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_real_eigensystem.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_rnpoly_solve.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_rnpoly_solve.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_rpoly_roots.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_rpoly_roots.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_simpson_integral.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_simpson_integral.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_solve_qp.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_solve_qp.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_sparse_lm.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_sparse_lm.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_sparse_lu.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_sparse_lu.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_sparse_symmetric_eigensystem.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_sparse_symmetric_eigensystem.obj"
+  "C:/workspace/libs/vxl-1.14.0/core/vnl/algo/vnl_symmetric_eigensystem.cxx" "C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir/vnl_symmetric_eigensystem.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "VXL_LEGACY_ERROR_REPORTING"
+  "VXL_WARN_DEPRECATED"
+  "VXL_WARN_DEPRECATED_ONCE"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "vcl"
+  "../vcl"
+  "core"
+  "../core"
+  "../v3p/netlib"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "C:/workspace/libs/vxl-1.14.0/build/v3p/netlib/CMakeFiles/netlib.dir/DependInfo.cmake"
+  "C:/workspace/libs/vxl-1.14.0/build/v3p/netlib/CMakeFiles/v3p_netlib.dir/DependInfo.cmake"
+  "C:/workspace/libs/vxl-1.14.0/build/core/vnl/CMakeFiles/vnl.dir/DependInfo.cmake"
+  "C:/workspace/libs/vxl-1.14.0/build/vcl/CMakeFiles/vcl.dir/DependInfo.cmake"
+  )

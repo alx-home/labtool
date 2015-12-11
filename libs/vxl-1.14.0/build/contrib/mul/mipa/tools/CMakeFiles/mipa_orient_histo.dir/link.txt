@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\mipa_orient_histo.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe cr CMakeFiles\mipa_orient_histo.dir/objects.a @CMakeFiles\mipa_orient_histo.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\G__~1.EXE    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\mipa_orient_histo.dir/objects.a -Wl,--no-whole-archive  -o mipa_orient_histo.exe -Wl,--out-implib,libmipa_orient_histo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mipa_orient_histo.dir\linklibs.rsp

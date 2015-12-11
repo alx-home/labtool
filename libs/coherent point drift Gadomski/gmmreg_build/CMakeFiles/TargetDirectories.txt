@@ -1,0 +1,6 @@
+C:/workspace/coherent point drift/gmmreg_build/CMakeFiles/extract_correspondence.dir
+C:/workspace/coherent point drift/gmmreg_build/CMakeFiles/gmmreg_api.dir
+C:/workspace/coherent point drift/gmmreg_build/CMakeFiles/gmmreg_aux.dir
+C:/workspace/coherent point drift/gmmreg_build/CMakeFiles/gmmreg_demo.dir
+C:/workspace/coherent point drift/gmmreg_build/CMakeFiles/gmmreg_transform.dir
+C:/workspace/coherent point drift/gmmreg_build/CMakeFiles/test_gauss_transform.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/workspace/libs/coherent point drift Bing-jian/C++/gmmreg_api.h
+
+C:/workspace/libs/coherent point drift Bing-jian/C++/gmmreg_demo.cpp
+iostream
+-
+gmmreg_api.h
+C:/workspace/libs/coherent point drift Bing-jian/C++/gmmreg_api.h
+

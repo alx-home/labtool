@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\..\lib\libvpgl_file_formats.a  CMakeFiles/vpgl_file_formats.dir/vpgl_nitf_rational_camera.obj CMakeFiles/vpgl_file_formats.dir/vpgl_geo_camera.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\..\lib\libvpgl_file_formats.a

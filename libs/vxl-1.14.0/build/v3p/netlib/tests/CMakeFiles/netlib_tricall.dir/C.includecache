@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/alex/Documents/chu/libs/vxl-1.14.0/v3p/netlib/tests/tricall.c
+stdio.h
+-
+../triangle.h
+C:/Users/alex/Documents/chu/libs/vxl-1.14.0/v3p/netlib/triangle.h
+
+C:/Users/alex/Documents/chu/libs/vxl-1.14.0/v3p/netlib/triangle.h
+

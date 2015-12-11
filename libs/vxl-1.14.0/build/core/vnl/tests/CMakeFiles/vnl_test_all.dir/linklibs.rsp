@@ -1,0 +1,1 @@
+ ../../../lib/libvnl.a ../../../lib/libvpl.a ../../../lib/libvul.a ../../../lib/libtestlib.a -lws2_32 ../../../lib/libvcl.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

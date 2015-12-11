@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\lib\libvbl_example_templates.a  CMakeFiles/vbl_example_templates.dir/Templates/smartptr-instances.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\lib\libvbl_example_templates.a

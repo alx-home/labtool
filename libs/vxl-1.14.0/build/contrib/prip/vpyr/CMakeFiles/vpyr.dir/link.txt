@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\lib\libvpyr.a  CMakeFiles/vpyr.dir/vpyr_2_pyramid_base.obj CMakeFiles/vpyr.dir/vpyr_2_tpyramid_base.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\lib\libvpyr.a

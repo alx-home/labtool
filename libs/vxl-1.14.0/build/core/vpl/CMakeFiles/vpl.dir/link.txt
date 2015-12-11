@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\lib\libvpl.a  CMakeFiles/vpl.dir/vpl.obj CMakeFiles/vpl.dir/vpl_fdopen.obj CMakeFiles/vpl.dir/vpl_fileno.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\lib\libvpl.a

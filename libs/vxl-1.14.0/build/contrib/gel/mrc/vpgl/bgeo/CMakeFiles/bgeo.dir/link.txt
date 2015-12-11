@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\..\lib\libbgeo.a  CMakeFiles/bgeo.dir/bgeo_lvcs.obj CMakeFiles/bgeo.dir/bgeo_datum_conversion.obj CMakeFiles/bgeo.dir/bgeo_utm.obj CMakeFiles/bgeo.dir/bgeo_sun_pos.obj CMakeFiles/bgeo.dir/Templates/vbl_smart_ptr+bgeo_lvcs-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\..\lib\libbgeo.a

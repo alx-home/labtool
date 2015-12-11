@@ -1,0 +1,22 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Test.dir/affinity_eigenvectors_test.cpp.obj"
+  "CMakeFiles/Test.dir/affinity_matrix_test.cpp.obj"
+  "CMakeFiles/Test.dir/config.cpp.obj"
+  "CMakeFiles/Test.dir/exceptions_test.cpp.obj"
+  "CMakeFiles/Test.dir/find_P_test.cpp.obj"
+  "CMakeFiles/Test.dir/nonrigid_lowrank_test.cpp.obj"
+  "CMakeFiles/Test.dir/nonrigid_test.cpp.obj"
+  "CMakeFiles/Test.dir/rigid_test.cpp.obj"
+  "CMakeFiles/Test.dir/sigma2_test.cpp.obj"
+  "CMakeFiles/Test.dir/version_test.cpp.obj"
+  "CMakeFiles/Test.dir/arma_64bit_test.cpp.obj"
+  "../bin/cpd-test.pdb"
+  "../bin/cpd-test.exe"
+  "../bin/cpd-test.exe.manifest"
+  "../lib/libcpd-test.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Test.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

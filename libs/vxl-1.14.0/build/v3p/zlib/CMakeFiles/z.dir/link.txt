@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\lib\libz.a  CMakeFiles/z.dir/adler32.obj CMakeFiles/z.dir/compress.obj CMakeFiles/z.dir/crc32.obj CMakeFiles/z.dir/gzio.obj CMakeFiles/z.dir/uncompr.obj CMakeFiles/z.dir/deflate.obj CMakeFiles/z.dir/trees.obj CMakeFiles/z.dir/zutil.obj CMakeFiles/z.dir/inflate.obj CMakeFiles/z.dir/infblock.obj CMakeFiles/z.dir/inftrees.obj CMakeFiles/z.dir/infcodes.obj CMakeFiles/z.dir/infutil.obj CMakeFiles/z.dir/inffast.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\lib\libz.a

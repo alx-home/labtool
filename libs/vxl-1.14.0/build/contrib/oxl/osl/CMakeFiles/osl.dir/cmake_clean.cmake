@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/osl.dir/osl_topology.obj"
+  "CMakeFiles/osl.dir/osl_vertex.obj"
+  "CMakeFiles/osl.dir/osl_edge.obj"
+  "CMakeFiles/osl.dir/osl_edgel_chain.obj"
+  "CMakeFiles/osl.dir/osl_break_edge.obj"
+  "CMakeFiles/osl.dir/osl_canny_base.obj"
+  "CMakeFiles/osl.dir/osl_canny_gradient.obj"
+  "CMakeFiles/osl.dir/osl_canny_nms.obj"
+  "CMakeFiles/osl.dir/osl_canny_ox.obj"
+  "CMakeFiles/osl.dir/osl_canny_ox_params.obj"
+  "CMakeFiles/osl.dir/osl_canny_rothwell.obj"
+  "CMakeFiles/osl.dir/osl_chamfer.obj"
+  "CMakeFiles/osl.dir/osl_convolve.obj"
+  "CMakeFiles/osl.dir/osl_easy_canny.obj"
+  "CMakeFiles/osl.dir/osl_edge_detector.obj"
+  "CMakeFiles/osl.dir/osl_edge_detector_params.obj"
+  "CMakeFiles/osl.dir/osl_fit_circle.obj"
+  "CMakeFiles/osl.dir/osl_fit_lines.obj"
+  "CMakeFiles/osl.dir/osl_fit_lines_params.obj"
+  "CMakeFiles/osl.dir/osl_harris.obj"
+  "CMakeFiles/osl.dir/osl_harris_params.obj"
+  "CMakeFiles/osl.dir/osl_kernel.obj"
+  "CMakeFiles/osl.dir/osl_load_topology.obj"
+  "CMakeFiles/osl.dir/osl_ortho_regress.obj"
+  "CMakeFiles/osl.dir/osl_save_topology.obj"
+  "CMakeFiles/osl.dir/internals/droid.obj"
+  "CMakeFiles/osl.dir/internals/osl_reorder_chain.obj"
+  "CMakeFiles/osl.dir/osl_canny_smooth.obj"
+  "CMakeFiles/osl.dir/Templates/osl_1d_half_kernel+double-.obj"
+  "CMakeFiles/osl.dir/Templates/osl_canny_smooth+byte-.obj"
+  "CMakeFiles/osl.dir/Templates/osl_canny_smooth+float-.obj"
+  "CMakeFiles/osl.dir/Templates/osl_canny_smooth+ushort-.obj"
+  "CMakeFiles/osl.dir/Templates/osl_canny_smooth+vil1_rgb+uchar--.obj"
+  "../../../lib/libosl.pdb"
+  "../../../lib/libosl.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/osl.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

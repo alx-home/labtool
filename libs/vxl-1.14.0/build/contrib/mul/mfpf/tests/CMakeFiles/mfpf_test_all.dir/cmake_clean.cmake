@@ -1,0 +1,23 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mfpf_test_all.dir/test_driver.obj"
+  "CMakeFiles/mfpf_test_all.dir/test_edge_finder.obj"
+  "CMakeFiles/mfpf_test_all.dir/test_norm_corr1d.obj"
+  "CMakeFiles/mfpf_test_all.dir/test_norm_corr2d.obj"
+  "CMakeFiles/mfpf_test_all.dir/test_profile_pdf.obj"
+  "CMakeFiles/mfpf_test_all.dir/test_region_pdf.obj"
+  "CMakeFiles/mfpf_test_all.dir/test_region_finder.obj"
+  "CMakeFiles/mfpf_test_all.dir/test_pose.obj"
+  "CMakeFiles/mfpf_test_all.dir/test_mr_point_finder.obj"
+  "CMakeFiles/mfpf_test_all.dir/test_dp_snake.obj"
+  "CMakeFiles/mfpf_test_all.dir/test_patch_data.obj"
+  "CMakeFiles/mfpf_test_all.dir/test_pose_predictor.obj"
+  "mfpf_test_all.pdb"
+  "mfpf_test_all.exe"
+  "mfpf_test_all.exe.manifest"
+  "libmfpf_test_all.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/mfpf_test_all.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

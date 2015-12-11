@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\lib\libvgl_xio.a  CMakeFiles/vgl_xio.dir/Templates/vgl_xio_box_3d+double-.obj CMakeFiles/vgl_xio.dir/Templates/vgl_xio_point_2d+double-.obj CMakeFiles/vgl_xio.dir/Templates/vgl_xio_point_2d+float-.obj CMakeFiles/vgl_xio.dir/Templates/vgl_xio_point_2d+int-.obj CMakeFiles/vgl_xio.dir/Templates/vgl_xio_point_3d+double-.obj CMakeFiles/vgl_xio.dir/Templates/vgl_xio_vector_3d+double-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\lib\libvgl_xio.a

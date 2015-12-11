@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\lib\libvdtop.a  CMakeFiles/vdtop.dir/vdtop_8_neighborhood_mask.obj CMakeFiles/vdtop.dir/vdtop_freeman_code.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\lib\libvdtop.a

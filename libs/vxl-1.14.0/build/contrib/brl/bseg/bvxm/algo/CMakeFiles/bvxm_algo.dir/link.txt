@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\..\lib\libbvxm_algo.a  CMakeFiles/bvxm_algo.dir/bvxm_merge_mog.obj CMakeFiles/bvxm_algo.dir/Templates/bvxm_mog_norm+float-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\..\lib\libbvxm_algo.a

@@ -1,0 +1,11 @@
+C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/share/cpd/cmake/CpdConfig.cmake
+C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/share/cpd/cmake/CpdConfigVersion.cmake
+C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/share/cpd/cmake/CpdTargets.cmake
+C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/share/cpd/cmake/CpdTargets-release.cmake
+C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/include/cpd/defaults.hpp
+C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/include/cpd/nonrigid.hpp
+C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/include/cpd/nonrigid_lowrank.hpp
+C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/include/cpd/registration.hpp
+C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/include/cpd/rigid.hpp
+C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/include/cpd/version.hpp
+C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/lib/cpd/libcpd.dll.a

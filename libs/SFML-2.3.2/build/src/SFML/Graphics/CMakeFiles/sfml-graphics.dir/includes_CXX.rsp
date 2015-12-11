@@ -1,0 +1,1 @@
+-IC:/workspace/libs/SFML-2.3.2/include -IC:/workspace/libs/SFML-2.3.2/src -IC:/workspace/libs/SFML-2.3.2/extlibs/headers/stb_image -IC:/workspace/libs/SFML-2.3.2/extlibs/headers/jpeg -IC:/workspace/libs/SFML-2.3.2/extlibs/headers/freetype2 

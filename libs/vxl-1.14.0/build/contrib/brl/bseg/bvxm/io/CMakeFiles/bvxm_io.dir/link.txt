@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\..\lib\libbvxm_io.a  CMakeFiles/bvxm_io.dir/bvxm_io_voxel_world.obj CMakeFiles/bvxm_io.dir/bvxm_io_world_params.obj CMakeFiles/bvxm_io.dir/Templates/vbl_io_smart_ptr+bvxm_voxel_world-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\..\lib\libbvxm_io.a

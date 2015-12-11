@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc lib\libglew32mx.a  CMakeFiles/glewmx_s.dir/C_/Users/alex/Documents/chu/libs/glew-1.13.0/glew-1.13.0/src/glew.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe lib\libglew32mx.a

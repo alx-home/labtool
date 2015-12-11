@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\vil_pro_test_include.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe cr CMakeFiles\vil_pro_test_include.dir/objects.a @CMakeFiles\vil_pro_test_include.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\G__~1.EXE    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\vil_pro_test_include.dir/objects.a -Wl,--no-whole-archive  -o vil_pro_test_include.exe -Wl,--out-implib,libvil_pro_test_include.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\vil_pro_test_include.dir\linklibs.rsp

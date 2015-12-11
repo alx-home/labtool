@@ -1,0 +1,37 @@
+# CMake generated Testfile for 
+# Source directory: C:/Users/alex/Documents/chu/libs/vxl-1.14.0/core/vil/tests
+# Build directory: C:/Users/alex/Documents/chu/libs/vxl-1.14.0/build/core/vil/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(vil_test_image_resource "./vil_test_all" "test_image_resource")
+add_test(vil_test_image_view "./vil_test_all" "test_image_view")
+add_test(vil_test_memory_chunk "./vil_test_all" "test_memory_chunk")
+add_test(vil_test_pixel_format "./vil_test_all" "test_pixel_format")
+add_test(vil_test_border "./vil_test_all" "test_border")
+add_test(vil_test_round "./vil_test_all" "test_round")
+add_test(vil_test_file_format_read "./vil_test_all" "test_file_format_read" "C:/Users/alex/Documents/chu/libs/vxl-1.14.0/core/vil/tests/file_read_data")
+add_test(vil_test_save_load_image "./vil_test_all" "test_save_load_image")
+add_test(vil_test_image_loader_robustness "./vil_test_all" "test_image_loader_robustness")
+add_test(vil_test_stream "./vil_test_all" "test_stream" "C:/Users/alex/Documents/chu/libs/vxl-1.14.0/core/vil/tests/file_read_data")
+add_test(vil_test_4_plane_tiff "./vil_test_all" "test_4_plane_tiff" "C:/Users/alex/Documents/chu/libs/vxl-1.14.0/core/vil/tests/file_read_data")
+add_test(vil_test_deep_copy_3_plane "./vil_test_all" "test_deep_copy_3_plane")
+add_test(vil_test_image_view_maths "./vil_test_all" "test_image_view_maths")
+add_test(vil_test_convert "./vil_test_all" "test_convert" "C:/Users/alex/Documents/chu/libs/vxl-1.14.0/core/vil/tests/file_read_data")
+add_test(vil_test_rotate_image "./vil_test_all" "test_rotate_image")
+add_test(vil_test_warp "./vil_test_all" "test_warp")
+add_test(vil_test_bilin_interp "./vil_test_all" "test_bilin_interp")
+add_test(vil_test_sample_profile_bilin "./vil_test_all" "test_sample_profile_bilin")
+add_test(vil_test_sample_grid_bilin "./vil_test_all" "test_sample_grid_bilin")
+add_test(vil_test_resample_bilin "./vil_test_all" "test_resample_bilin")
+add_test(vil_test_bicub_interp "./vil_test_all" "test_bicub_interp")
+add_test(vil_test_sample_profile_bicub "./vil_test_all" "test_sample_profile_bicub")
+add_test(vil_test_sample_grid_bicub "./vil_test_all" "test_sample_grid_bicub")
+add_test(vil_test_resample_bicub "./vil_test_all" "test_resample_bicub")
+add_test(vil_test_nearest_interp "./vil_test_all" "test_nearest_interp")
+add_test(vil_test_resample_nearest "./vil_test_all" "test_resample_nearest")
+add_test(vil_test_math_value_range "./vil_test_all" "test_math_value_range")
+add_test(vil_test_math_median "./vil_test_all" "test_math_median")
+add_test(vil_test_blocked_image_resource "./vil_test_all" "test_blocked_image_resource" "C:/Users/alex/Documents/chu/libs/vxl-1.14.0/core/vil/tests/file_read_data")
+add_test(vil_test_image_list "./vil_test_all" "test_image_list")
+add_test(vil_test_pyramid_image_resource "./vil_test_all" "test_pyramid_image_resource" "C:/Users/alex/Documents/chu/libs/vxl-1.14.0/core/vil/tests/file_read_data")

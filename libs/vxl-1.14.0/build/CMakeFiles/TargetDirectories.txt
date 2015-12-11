@@ -1,0 +1,7 @@
+C:/workspace/libs/vxl-1.14.0/build/v3p/netlib/CMakeFiles/v3p_netlib.dir
+C:/workspace/libs/vxl-1.14.0/build/core/testlib/CMakeFiles/testlib.dir
+C:/workspace/libs/vxl-1.14.0/build/core/vnl/algo/CMakeFiles/vnl_algo.dir
+C:/workspace/libs/vxl-1.14.0/build/vcl/CMakeFiles/vcl.dir
+C:/workspace/libs/vxl-1.14.0/build/v3p/netlib/CMakeFiles/netlib.dir
+C:/workspace/libs/vxl-1.14.0/build/core/vnl/CMakeFiles/vnl.dir
+C:/workspace/libs/vxl-1.14.0/build/v3p/Qv/CMakeFiles/Qv.dir

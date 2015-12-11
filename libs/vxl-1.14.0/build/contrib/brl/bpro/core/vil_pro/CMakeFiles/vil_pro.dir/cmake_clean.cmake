@@ -1,0 +1,34 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vil_pro.dir/vil_io_image_view_base.obj"
+  "CMakeFiles/vil_pro.dir/vil_register.obj"
+  "CMakeFiles/vil_pro.dir/Templates/brdb_value_t+vil_image_view_base_sptr-.obj"
+  "CMakeFiles/vil_pro.dir/processes/bil_compass_edge_detector_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_binary_image_op_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_combine_grey_images_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_convert_to_n_planes_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_crop_image_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_filter_image_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_gaussian_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_gradient_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_image_pair_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_image_size_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_load_from_ascii_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_load_image_view_binary_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_load_image_view_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_map_image_binary_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_map_image_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_resample_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_rgbi_to_grey_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_save_image_view_binary_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_save_image_view_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_stretch_image_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_threshold_image_process.obj"
+  "CMakeFiles/vil_pro.dir/processes/vil_two_planes_composite_process.obj"
+  "../../../../../lib/libvil_pro.pdb"
+  "../../../../../lib/libvil_pro.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vil_pro.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

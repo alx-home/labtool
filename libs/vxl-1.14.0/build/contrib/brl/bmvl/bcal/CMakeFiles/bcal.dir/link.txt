@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libbcal.a  CMakeFiles/bcal.dir/bcal_camera.obj CMakeFiles/bcal.dir/bcal_camera_node.obj CMakeFiles/bcal.dir/bcal_euclidean_transformation.obj CMakeFiles/bcal.dir/bcal_calibrate_plane.obj CMakeFiles/bcal.dir/bcal_zhang_camera_node.obj CMakeFiles/bcal.dir/bcal_zhang_linear_calibrate.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libbcal.a

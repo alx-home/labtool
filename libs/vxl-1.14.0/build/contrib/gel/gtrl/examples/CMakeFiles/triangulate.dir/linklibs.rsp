@@ -1,0 +1,1 @@
+ ../../../../lib/libgtrl.a ../../../../lib/libvbl.a ../../../../lib/libvcl.a ../../../../lib/libnetlib.a ../../../../lib/libv3p_netlib.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

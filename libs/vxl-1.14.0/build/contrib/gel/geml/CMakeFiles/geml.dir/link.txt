@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\lib\libgeml.a  CMakeFiles/geml.dir/geml_matcher.obj CMakeFiles/geml.dir/geml_matcher_correlation.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\lib\libgeml.a

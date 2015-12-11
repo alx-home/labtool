@@ -1,0 +1,5 @@
+C:/workspace/coherent point drift/build/src/CMakeFiles/Library.dir
+C:/workspace/coherent point drift/build/test/performance/CMakeFiles/Performance.dir
+C:/workspace/coherent point drift/build/test/CMakeFiles/Test.dir
+C:/workspace/coherent point drift/build/vendor/gtest-1.7.0/CMakeFiles/gtest.dir
+C:/workspace/coherent point drift/build/vendor/gtest-1.7.0/CMakeFiles/gtest_main.dir

@@ -1,0 +1,94 @@
+Start testing: Oct 02 16:41 Paris, Madrid (heure d[NON-UTF-8-BYTE-0x92][NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])
+----------------------------------------------------------
+1/1 Testing: unit-tests
+1/1 Test: unit-tests
+Command: "C:/workspace/coherent point drift/build/bin/cpd-test.exe"
+Directory: C:/workspace/coherent point drift/build/test
+"unit-tests" start time: Oct 02 16:41 Paris, Madrid (heure d[NON-UTF-8-BYTE-0x92][NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 17 tests from 12 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from Arma64Bit
+[ RUN      ] Arma64Bit.IsDefined
+[       OK ] Arma64Bit.IsDefined (0 ms)
+[----------] 1 test from Arma64Bit (0 ms total)
+
+[----------] 1 test from Version
+[ RUN      ] Version.Exists
+[       OK ] Version.Exists (0 ms)
+[----------] 1 test from Version (0 ms total)
+
+[----------] 1 test from Sigma2
+[ RUN      ] Sigma2.MatchesReferenceImpl
+[       OK ] Sigma2.MatchesReferenceImpl (0 ms)
+[----------] 1 test from Sigma2 (1 ms total)
+
+[----------] 3 tests from RigidRegistration
+[ RUN      ] RigidRegistration.InitializesWithDefaults
+[       OK ] RigidRegistration.InitializesWithDefaults (0 ms)
+[ RUN      ] RigidRegistration.RegistersData
+[       OK ] RigidRegistration.RegistersData (56 ms)
+[ RUN      ] RigidRegistration.TransformationMatrix
+[       OK ] RigidRegistration.TransformationMatrix (9 ms)
+[----------] 3 tests from RigidRegistration (65 ms total)
+
+[----------] 2 tests from NonrigidRegistration
+[ RUN      ] NonrigidRegistration.InitializesWithDefaults
+[       OK ] NonrigidRegistration.InitializesWithDefaults (0 ms)
+[ RUN      ] NonrigidRegistration.RegistersData
+[       OK ] NonrigidRegistration.RegistersData (18 ms)
+[----------] 2 tests from NonrigidRegistration (18 ms total)
+
+[----------] 3 tests from NonrigidLowrankRegistration
+[ RUN      ] NonrigidLowrankRegistration.InitializesWithDefaults
+[       OK ] NonrigidLowrankRegistration.InitializesWithDefaults (0 ms)
+[ RUN      ] NonrigidLowrankRegistration.RegistersData
+[       OK ] NonrigidLowrankRegistration.RegistersData (17 ms)
+[ RUN      ] NonrigidLowrankRegistration.RegistersDataWithZExaggeration
+[       OK ] NonrigidLowrankRegistration.RegistersDataWithZExaggeration (16 ms)
+[----------] 3 tests from NonrigidLowrankRegistration (33 ms total)
+
+[----------] 1 test from FindP
+[ RUN      ] FindP.MatchesReferenceImplWithoutFGT
+[       OK ] FindP.MatchesReferenceImplWithoutFGT (1 ms)
+[----------] 1 test from FindP (1 ms total)
+
+[----------] 1 test from CPDError
+[ RUN      ] CPDError.Throwing
+[       OK ] CPDError.Throwing (29 ms)
+[----------] 1 test from CPDError (29 ms total)
+
+[----------] 1 test from DimensionMismatch
+[ RUN      ] DimensionMismatch.Throwing
+[       OK ] DimensionMismatch.Throwing (0 ms)
+[----------] 1 test from DimensionMismatch (0 ms total)
+
+[----------] 1 test from ArpackError
+[ RUN      ] ArpackError.Throwing
+[       OK ] ArpackError.Throwing (0 ms)
+[----------] 1 test from ArpackError (0 ms total)
+
+[----------] 1 test from AffinityMatrix
+[ RUN      ] AffinityMatrix.MatchesReferenceImpl
+[       OK ] AffinityMatrix.MatchesReferenceImpl (0 ms)
+[----------] 1 test from AffinityMatrix (0 ms total)
+
+[----------] 1 test from AffinityEigenvectors
+[ RUN      ] AffinityEigenvectors.MatchesReferenceImpl
+[       OK ] AffinityEigenvectors.MatchesReferenceImpl (9 ms)
+[----------] 1 test from AffinityEigenvectors (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 12 test cases ran. (157 ms total)
+[  PASSED  ] 17 tests.
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"unit-tests" end time: Oct 02 16:41 Paris, Madrid (heure d[NON-UTF-8-BYTE-0x92][NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])
+"unit-tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 02 16:41 Paris, Madrid (heure d[NON-UTF-8-BYTE-0x92][NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])

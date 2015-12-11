@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\..\lib\libbsvg.a  CMakeFiles/bsvg.dir/bsvg_document.obj CMakeFiles/bsvg.dir/bsvg_element.obj CMakeFiles/bsvg.dir/bsvg_plot.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\..\lib\libbsvg.a

@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\..\lib\libbvpl_io.a  CMakeFiles/bvpl_io.dir/bvpl_io_kernel.obj CMakeFiles/bvpl_io.dir/Templates/vbl_io_smart_ptr+bvpl_kernel-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\..\lib\libbvpl_io.a

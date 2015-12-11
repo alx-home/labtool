@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\plot_pdf_estimate.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe cr CMakeFiles\plot_pdf_estimate.dir/objects.a @CMakeFiles\plot_pdf_estimate.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\G__~1.EXE    -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\plot_pdf_estimate.dir/objects.a -Wl,--no-whole-archive  -o plot_pdf_estimate.exe -Wl,--out-implib,libplot_pdf_estimate.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\plot_pdf_estimate.dir\linklibs.rsp

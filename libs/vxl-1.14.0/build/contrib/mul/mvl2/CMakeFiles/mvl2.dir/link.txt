@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\lib\libmvl2.a  CMakeFiles/mvl2.dir/mvl2_video_reader.obj CMakeFiles/mvl2.dir/mvl2_video_from_sequence.obj CMakeFiles/mvl2.dir/mvl2_image_format_plugin.obj CMakeFiles/mvl2.dir/mvl2_video_from_avi_windows.obj CMakeFiles/mvl2.dir/mvl2_video_to_avi_windows.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\lib\libmvl2.a

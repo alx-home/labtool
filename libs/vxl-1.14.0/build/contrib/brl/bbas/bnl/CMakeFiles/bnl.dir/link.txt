@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libbnl.a  CMakeFiles/bnl.dir/bnl_parabolic_interpolator.obj CMakeFiles/bnl.dir/bnl_quadratic_interpolator.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libbnl.a

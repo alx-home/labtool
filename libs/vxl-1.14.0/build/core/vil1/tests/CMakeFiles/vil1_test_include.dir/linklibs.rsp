@@ -1,0 +1,1 @@
+ ../../../lib/libvil1.a ../../../lib/libvil.a ../../../lib/libpng.a ../../../lib/libvcl.a -lws2_32 ../../../lib/libgeotiff.a ../../../lib/libtiff.a ../../../lib/libjpeg.a ../../../lib/libz.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -1,0 +1,2 @@
+C:\mingw-w64\x86_64-4.9.2-posix-seh-rt_v3-rev1\mingw64\bin\ar.exe cq ..\..\lib\libnetlib.a  CMakeFiles/netlib.dir/triangle.obj
+C:\mingw-w64\x86_64-4.9.2-posix-seh-rt_v3-rev1\mingw64\bin\ranlib.exe ..\..\lib\libnetlib.a

@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\..\lib\libbmsh3d_algo.a  CMakeFiles/bmsh3d_algo.dir/bmsh3d_fileio.obj CMakeFiles/bmsh3d_algo.dir/bmsh3d_fileio_ply.obj CMakeFiles/bmsh3d_algo.dir/bmsh3d_mesh_triangulate.obj CMakeFiles/bmsh3d_algo.dir/bmsh3d_mesh_tri.obj CMakeFiles/bmsh3d_algo.dir/bmsh3d_mesh_bnd.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\..\lib\libbmsh3d_algo.a

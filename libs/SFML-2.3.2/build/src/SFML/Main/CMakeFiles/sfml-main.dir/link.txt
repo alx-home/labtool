@@ -1,0 +1,2 @@
+C:\mingw-w64\x86_64-4.9.2-posix-seh-rt_v3-rev1\mingw64\bin\ar.exe cq ..\..\..\lib\libsfml-main.a  CMakeFiles/sfml-main.dir/MainWin32.cpp.obj
+C:\mingw-w64\x86_64-4.9.2-posix-seh-rt_v3-rev1\mingw64\bin\ranlib.exe ..\..\..\lib\libsfml-main.a

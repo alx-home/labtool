@@ -1,0 +1,28 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/boxm_test_all.dir/test_driver.obj"
+  "CMakeFiles/boxm_test_all.dir/test_binary_io.obj"
+  "CMakeFiles/boxm_test_all.dir/test_block_iter.obj"
+  "CMakeFiles/boxm_test_all.dir/test_block_vis_graph.obj"
+  "CMakeFiles/boxm_test_all.dir/test_cell_vis_graph.obj"
+  "CMakeFiles/boxm_test_all.dir/test_utils.obj"
+  "CMakeFiles/boxm_test_all.dir/test_quad_interpolate.obj"
+  "CMakeFiles/boxm_test_all.dir/test_render_image.obj"
+  "CMakeFiles/boxm_test_all.dir/test_save_raw.obj"
+  "CMakeFiles/boxm_test_all.dir/test_update.obj"
+  "CMakeFiles/boxm_test_all.dir/test_update_multi_bin.obj"
+  "CMakeFiles/boxm_test_all.dir/test_compute_visibility.obj"
+  "CMakeFiles/boxm_test_all.dir/test_boxm_rational_camera_utils.obj"
+  "CMakeFiles/boxm_test_all.dir/test_upload_mesh.obj"
+  "CMakeFiles/boxm_test_all.dir/test_fill_in_mesh.obj"
+  "CMakeFiles/boxm_test_all.dir/test_save_scene_raw.obj"
+  "CMakeFiles/boxm_test_all.dir/test_sigma_normalizer.obj"
+  "boxm_test_all.pdb"
+  "boxm_test_all.exe"
+  "boxm_test_all.exe.manifest"
+  "libboxm_test_all.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/boxm_test_all.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

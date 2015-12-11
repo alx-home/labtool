@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libbtom.a  CMakeFiles/btom.dir/btom_gauss_cylinder.obj CMakeFiles/btom.dir/btom_slice_simulator.obj CMakeFiles/btom.dir/btom_slice_simulator_params.obj CMakeFiles/btom.dir/Templates/vbl_smart_ptr+btom_gauss_cylinder-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libbtom.a

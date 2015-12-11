@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libbdpg.a  CMakeFiles/bdpg.dir/bdpg_node.obj CMakeFiles/bdpg.dir/bdpg_array_dynamic_prg.obj CMakeFiles/bdpg.dir/Templates/vbl_smart_ptr+bdpg_node-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libbdpg.a

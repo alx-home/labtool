@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\lib\libbtol.a  CMakeFiles/btol.dir/btol_edge_algs.obj CMakeFiles/btol.dir/btol_vertex_algs.obj CMakeFiles/btol.dir/btol_face_algs.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\lib\libbtol.a

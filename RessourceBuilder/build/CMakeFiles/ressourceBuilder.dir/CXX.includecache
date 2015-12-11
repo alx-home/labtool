@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/workspace/RessourceBuilder/src/main.cpp
+cstdlib
+-
+exception
+-
+iostream
+-
+fstream
+-
+string
+-
+memory
+-
+windows.h
+-
+

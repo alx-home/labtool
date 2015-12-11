@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\lib\libgtrl.a  CMakeFiles/gtrl.dir/gtrl_triangle.obj CMakeFiles/gtrl.dir/gtrl_polygon.obj CMakeFiles/gtrl.dir/Templates/vbl_smart_ptr+gtrl_triangle-.obj CMakeFiles/gtrl.dir/Templates/vbl_smart_ptr+gtrl_vertex-.obj CMakeFiles/gtrl.dir/gtrl_triangulation.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\lib\libgtrl.a

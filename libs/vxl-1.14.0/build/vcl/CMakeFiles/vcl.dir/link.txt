@@ -1,0 +1,2 @@
+C:\mingw-w64\x86_64-4.9.2-posix-seh-rt_v3-rev1\mingw64\bin\ar.exe cq ..\lib\libvcl.a  CMakeFiles/vcl.dir/vcl_deprecated.obj CMakeFiles/vcl.dir/vcl_cmath.obj CMakeFiles/vcl.dir/vcl_cassert.obj CMakeFiles/vcl.dir/vcl_cstdlib.obj CMakeFiles/vcl.dir/emulation/vcl_limits.obj CMakeFiles/vcl.dir/emulation/vcl_string_instances.obj CMakeFiles/vcl.dir/emulation/vcl_rbtree_instances.obj CMakeFiles/vcl.dir/emulation/vcl_hashtable.obj CMakeFiles/vcl.dir/emulation/vcl_alloc.obj
+C:\mingw-w64\x86_64-4.9.2-posix-seh-rt_v3-rev1\mingw64\bin\ranlib.exe ..\lib\libvcl.a

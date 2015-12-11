@@ -1,0 +1,4 @@
+C:/Users/alex/Documents/chu/libs/moka/build/Code/IO/CMakeFiles/BTKIO.dir
+C:/Users/alex/Documents/chu/libs/moka/build/Code/BasicFilters/CMakeFiles/BTKBasicFilters.dir
+C:/Users/alex/Documents/chu/libs/moka/build/Code/Common/CMakeFiles/BTKCommon.dir
+C:/Users/alex/Documents/chu/libs/moka/build/Packaging/CMakeFiles/package.dir

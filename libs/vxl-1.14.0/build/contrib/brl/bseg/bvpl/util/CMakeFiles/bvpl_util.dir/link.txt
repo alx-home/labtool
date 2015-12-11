@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\..\..\..\lib\libbvpl_util.a  CMakeFiles/bvpl_util.dir/bvpl_corner_pair_finder.obj CMakeFiles/bvpl_util.dir/bvpl_corner_search_functor.obj CMakeFiles/bvpl_util.dir/Templates/bvxm_voxel_x+bvpl_pair-.obj CMakeFiles/bvpl_util.dir/Templates/vbl_smart_ptr+bvpl_corner_pairs-.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\..\..\..\lib\libbvpl_util.a

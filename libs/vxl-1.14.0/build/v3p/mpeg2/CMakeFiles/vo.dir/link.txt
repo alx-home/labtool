@@ -1,0 +1,2 @@
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ar.exe qc ..\..\lib\libvo.a  CMakeFiles/vo.dir/libvo/video_out.obj CMakeFiles/vo.dir/libvo/video_out_null.obj CMakeFiles/vo.dir/libvo/video_out_pgm.obj CMakeFiles/vo.dir/libvo/yuv2rgb.obj CMakeFiles/vo.dir/libvo/yuv2rgb_mlib.obj CMakeFiles/vo.dir/libvo/yuv2rgb_mmx.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.2-P\mingw64\bin\ranlib.exe ..\..\lib\libvo.a

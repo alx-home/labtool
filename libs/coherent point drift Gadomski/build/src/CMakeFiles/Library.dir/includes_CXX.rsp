@@ -1,0 +1,1 @@
+-isystem C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/include/armadillo -I"C:/workspace/coherent point drift/include" -I"C:/workspace/coherent point drift/src" -isystem C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/include 

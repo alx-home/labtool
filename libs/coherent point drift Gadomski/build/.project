@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>cpd-RELEASE@build</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>C:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/bin/mingw32-make.exe</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>C:/workspace/coherent point drift/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>C:/workspace/coherent point drift/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/gtest</name>
+			<type>2</type>
+			<location>C:/workspace/coherent point drift/vendor/gtest-1.7.0</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Source Files/affinity_eigenvectors.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/src/affinity_eigenvectors.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Source Files/affinity_matrix.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/src/affinity_matrix.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Source Files/find_P.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/src/find_P.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Source Files/nonrigid.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/src/nonrigid.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Source Files/nonrigid_lowrank.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/src/nonrigid_lowrank.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Source Files/registration.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/src/registration.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Source Files/rigid.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/src/rigid.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Source Files/sigma2.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/src/sigma2.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Source Files/version.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/build/src/version.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Library/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/vendor/gtest-1.7.0/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files/gtest_main.cc</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/vendor/gtest-1.7.0/src/gtest_main.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files/affinity_eigenvectors_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/affinity_eigenvectors_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files/affinity_matrix_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/affinity_matrix_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files/config.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/config.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files/exceptions_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/exceptions_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files/find_P_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/find_P_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files/nonrigid_lowrank_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/nonrigid_lowrank_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files/nonrigid_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/nonrigid_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files/rigid_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/rigid_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files/sigma2_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/sigma2_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files/version_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/version_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Source Files/arma_64bit_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/arma_64bit_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Performance</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Performance/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Performance/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Performance/Source Files/config.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/config.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Performance/Source Files/timer.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/performance/timer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Performance/Source Files/nonrigid_lowrank_performance_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/performance/nonrigid_lowrank_performance_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Performance/Source Files/rigid_performance_test.cpp</name>
+			<type>1</type>
+			<location>C:/workspace/coherent point drift/test/performance/rigid_performance_test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Performance/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Performance/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Performance/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Performance/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

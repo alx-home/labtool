@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/workspace/coherent point drift/gmmreg_src/extract_correspondence.cpp
+iostream
+-
+fstream
+-
+vector
+-
+cstdlib
+-
+vnl/algo/vnl_determinant.h
+-
+vnl/vnl_matrix.h
+-
+vnl/vnl_vector.h
+-
+gmmreg_utils.h
+C:/workspace/coherent point drift/gmmreg_src/gmmreg_utils.h
+
+C:/workspace/coherent point drift/gmmreg_src/gmmreg_utils.cpp
+vcl_iostream.h
+-
+vnl/vnl_matrix.h
+-
+vnl/vnl_vector.h
+-
+cmath
+-
+vector
+-
+iostream
+-
+fstream
+-
+cstring
+-
+cstdlib
+-
+gmmreg_utils.h
+C:/workspace/coherent point drift/gmmreg_src/gmmreg_utils.h
+
+C:/workspace/coherent point drift/gmmreg_src/gmmreg_utils.h
+vnl/vnl_vector.h
+-
+vnl/vnl_matrix.h
+-
+vector
+-
+windows.h
+-
+

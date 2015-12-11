@@ -1,0 +1,28 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rgrl_test_all.dir/test_driver.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_util.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_rgrl_util.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_transformation.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_trans_reader.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_feature.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_feature_region.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_feature_set.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_match_set.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_spline.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_estimator.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_convergence.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_scale_est.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_initializer.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_set_of.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_initializer_ran_sam.obj"
+  "CMakeFiles/rgrl_test_all.dir/test_matcher.obj"
+  "rgrl_test_all.pdb"
+  "rgrl_test_all.exe"
+  "rgrl_test_all.exe.manifest"
+  "librgrl_test_all.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/rgrl_test_all.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

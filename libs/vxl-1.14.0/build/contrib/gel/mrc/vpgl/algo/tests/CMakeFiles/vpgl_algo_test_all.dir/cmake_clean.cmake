@@ -1,0 +1,27 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vpgl_algo_test_all.dir/test_driver.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_construct_cameras.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_project.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_optimize_camera.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_fm_compute.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_camera_compute.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_lens_warp_mapper.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_backproject.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_ray.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_ortho_procrustes.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_ray_intersect.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_adjust_rational_trans_onept.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_rational_geo_adjust.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_bundle_adjust.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_interpolate.obj"
+  "CMakeFiles/vpgl_algo_test_all.dir/test_camera_homographies.obj"
+  "vpgl_algo_test_all.pdb"
+  "vpgl_algo_test_all.exe"
+  "vpgl_algo_test_all.exe.manifest"
+  "libvpgl_algo_test_all.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vpgl_algo_test_all.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

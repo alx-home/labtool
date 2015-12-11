@@ -1,0 +1,1 @@
+-I"C:/workspace/coherent point drift/include" -I"C:/workspace/coherent point drift/src" -I"C:/workspace/coherent point drift/test" -I"C:/workspace/coherent point drift/build/test/performance/.." -I"C:/workspace/coherent point drift/vendor/gtest-1.7.0/include" -IC:/mingw-w64/x86_64-4.9.2-posix-seh-rt_v3-rev1/mingw64/include/armadillo 
