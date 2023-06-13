@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>LabTools:  Fichier source de C:/workspace/LabTools/src/datas/Box.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">LabTools
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_2226e7cee458e944ce416b5f99af0923.html">datas</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Box.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Box.h</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *  Created on: 10 févr. 2016</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: alex</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef SRC_DATAS_BOX_H_</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define SRC_DATAS_BOX_H_</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;../utils/math/Vector.h&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacelabeliser.html">labeliser</a> {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classlabeliser_1_1_box.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="classlabeliser_1_1_box.html">Box</a> {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="classlabeliser_1_1_box.html#ab6be144dad5f83f6e283824719f32529">Box</a>(<span class="keyword">const</span> Vector3d&amp; beggin, <span class="keyword">const</span> Vector3d&amp; end);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classlabeliser_1_1_box.html">Box</a>();</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">const</span> Vector3d&amp; <a class="code" href="classlabeliser_1_1_box.html#a7c4fa097eec707909e37af924ce42a15">getBeggin</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">const</span> Vector3d&amp; <a class="code" href="classlabeliser_1_1_box.html#a62d46a02606933fc51b9240cbfae60c5">getEnd</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classlabeliser_1_1_box.html#a3d52398765eb8b0a20ebc7edb774328f">isInside</a>(<span class="keyword">const</span> Vector3d&amp; <a class="code" href="namespacepoint.html">point</a>) <span class="keyword">const</span>;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classlabeliser_1_1_box.html#aa338be2ed79cf5f40226671b6df62174">setBeggin</a>(<span class="keyword">const</span> Vector3d&amp; beggin);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classlabeliser_1_1_box.html#a4233053c8e584a3e4709cec982289439">setEnd</a>(<span class="keyword">const</span> Vector3d&amp; end);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    Vector3d beggin;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    Vector3d end;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;};</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}  <span class="comment">// namespace labeliser</span></div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* SRC_DATAS_BOX_H_ */</span><span class="preprocessor"></span></div><div class="ttc" id="classlabeliser_1_1_box_html_a7c4fa097eec707909e37af924ce42a15"><div class="ttname"><a href="classlabeliser_1_1_box.html#a7c4fa097eec707909e37af924ce42a15">labeliser::Box::getBeggin</a></div><div class="ttdeci">const Vector3d &amp; getBeggin() const </div><div class="ttdef"><b>Definition:</b> Box.cpp:19</div></div>
+<div class="ttc" id="classlabeliser_1_1_box_html_ab6be144dad5f83f6e283824719f32529"><div class="ttname"><a href="classlabeliser_1_1_box.html#ab6be144dad5f83f6e283824719f32529">labeliser::Box::Box</a></div><div class="ttdeci">Box(const Vector3d &amp;beggin, const Vector3d &amp;end)</div><div class="ttdoc">constructor </div><div class="ttdef"><b>Definition:</b> Box.cpp:12</div></div>
+<div class="ttc" id="classlabeliser_1_1_box_html_a3d52398765eb8b0a20ebc7edb774328f"><div class="ttname"><a href="classlabeliser_1_1_box.html#a3d52398765eb8b0a20ebc7edb774328f">labeliser::Box::isInside</a></div><div class="ttdeci">bool isInside(const Vector3d &amp;point) const </div><div class="ttdoc">permet de savoir si un point se situe dans ou en dehors de la boite </div><div class="ttdef"><b>Definition:</b> Box.cpp:27</div></div>
+<div class="ttc" id="classlabeliser_1_1_box_html"><div class="ttname"><a href="classlabeliser_1_1_box.html">labeliser::Box</a></div><div class="ttdoc">container de coordonées définissant une boite </div><div class="ttdef"><b>Definition:</b> Box.h:21</div></div>
+<div class="ttc" id="classlabeliser_1_1_box_html_a62d46a02606933fc51b9240cbfae60c5"><div class="ttname"><a href="classlabeliser_1_1_box.html#a62d46a02606933fc51b9240cbfae60c5">labeliser::Box::getEnd</a></div><div class="ttdeci">const Vector3d &amp; getEnd() const </div><div class="ttdef"><b>Definition:</b> Box.cpp:23</div></div>
+<div class="ttc" id="namespacelabeliser_html"><div class="ttname"><a href="namespacelabeliser.html">labeliser</a></div><div class="ttdef"><b>Definition:</b> Box.cpp:10</div></div>
+<div class="ttc" id="namespacepoint_html"><div class="ttname"><a href="namespacepoint.html">point</a></div><div class="ttdef"><b>Definition:</b> DataStruct.h:22</div></div>
+<div class="ttc" id="classlabeliser_1_1_box_html_a4233053c8e584a3e4709cec982289439"><div class="ttname"><a href="classlabeliser_1_1_box.html#a4233053c8e584a3e4709cec982289439">labeliser::Box::setEnd</a></div><div class="ttdeci">void setEnd(const Vector3d &amp;end)</div><div class="ttdoc">définit les coordonnées haut gauche de la boite </div><div class="ttdef"><b>Definition:</b> Box.cpp:50</div></div>
+<div class="ttc" id="classlabeliser_1_1_box_html_aa338be2ed79cf5f40226671b6df62174"><div class="ttname"><a href="classlabeliser_1_1_box.html#aa338be2ed79cf5f40226671b6df62174">labeliser::Box::setBeggin</a></div><div class="ttdeci">void setBeggin(const Vector3d &amp;beggin)</div><div class="ttdoc">définit les coordonnées haut gauche de la boite </div><div class="ttdef"><b>Definition:</b> Box.cpp:46</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
